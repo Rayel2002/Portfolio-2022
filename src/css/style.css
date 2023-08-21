@@ -18,7 +18,7 @@ body {
   color: lightblue;
   text-align: center;
   position: relative;
-  margin-top: 20vh;
+  justify-content: center;
 }
 #titleColor {
   color: darkred;
@@ -54,6 +54,7 @@ section {
 
 #aboutMe {
   padding: 0px;
+  justify-content: center;
 }
 
 #aboutMeContainer {
