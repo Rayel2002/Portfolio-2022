@@ -203,25 +203,41 @@ section {
 footer {
   display: block;
   text-align: center;
+  background-color: #000;
+}
+.footerNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: auto;
 }
 .fa-brands {
   padding: 20px;
   font-size: 30px;
-  width: 50px;
+  width: auto;
   text-align: center;
 }
 .fa-instagram {
-  background: #8a3ab9;
+  background: #000;
   color: white;
+  border-radius: 50%;
 }
 
 .fa-tiktok {
   background: #000;
   color: white;
+  border-radius: 50%;
 }
-.fa-twitter {
-  background: #00acee;
+.fa-x-twitter {
+  background: #000;
   color: white;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  background: #000;
+  color: white;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 600px) {
